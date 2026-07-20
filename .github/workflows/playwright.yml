@@ -7,7 +7,7 @@ on:
 jobs:
   e2e-tests:
     timeout-minutes: 60
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-22.04 # ubuntu-latest is deprecated (?)
     steps:
     - name: Get code
       uses: actions/checkout@v4
